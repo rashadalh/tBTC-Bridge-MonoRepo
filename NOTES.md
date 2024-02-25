@@ -32,7 +32,7 @@ Can send inputs to tBTC bridge deposit address using the deposit funding address
 
 	-- This gets the hex from the outputs of the previous tx. Provide the utxo hash, and it will pull it down from the API
 
-*idea* --> Have the input be a P2SH with the appropriate signatures, this way we can send the inscription to this address
+*idea* --> Have the input be a P2WPKH or even PWTR with the appropriate signatures, this way we can send the inscription to this address
 
 *lazy way* --> just send to an address we can control, then send a signal to sepolia to mint
 
@@ -41,7 +41,7 @@ Can I attach a small amount of BTC (some dust?)
 	-- Doesn't seem like it, but how do we then get the bridge to transfer from the funding address back to the user TODO--> withdrawal process
 
 **Withdrawals**
-Transactions can be of a P2SH type, we can use this to fund an address for a redeem script to transfer the inscription back to us ``typescript/src/services/redemptions/redemptions-service.ts`` See `requestRedemption` 
+Transactions can be of a P2WPKH or PWTR(?) type, we can use this to fund an address for a redeem script to transfer the inscription back to us ``typescript/src/services/redemptions/redemptions-service.ts`` See `requestRedemption` 
 
 Line 25 in `typescript/test/utils/mock-tbtc-token.ts` has an example of requesting a redemption
 

@@ -56,3 +56,15 @@ Specifically this tx, const txHash = await deposit.initiateMinting(fundingUTXOs[
 n when the indexer detects the balance on the bridge, we have some sort of off chain bot that then makes the ERC-20 on Sepolia.
 
 How to send the inscription from the bridge to back to a user **withdrawal**?
+
+
+**More Questions**
+
+(1) API to check if an adress has an inscription either via Metamask or Bob make inscriptions UX.
+(2) How to transfer inscription off of the bridge address? 
+ -- Use bridge to destroy it. We create our own brc-20, send to bridge. But when we redeem our funds should destroy.
+
+
+ TODO
+ 1. Test you can send an inscription to the bridge deposit address
+ 2. Withdraw from the bridge.   

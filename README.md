@@ -1,5 +1,8 @@
 ### Submission for BOB hackathon -- BRC-20 -> ERC-20 Bridge via tBTC and BOB
 
+[**Powerpoint**](https://docs.google.com/presentation/d/1occTT87HjdzhbSLNFYLNFwNGM34UxBbPFwLQpCx4_5g/edit?usp=sharing)  
+[**POC Video**](https://drive.google.com/file/d/1-hzHSQm5iUp0w41QsiYjIPNsxALE83xr/view?usp=sharing)
+
 **Bounties we are submitting for**
 ```
 1. Build on BOB.  

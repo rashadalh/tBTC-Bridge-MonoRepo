@@ -102,5 +102,5 @@ git submodule update --init --recursive
 2. cd bob-starter-kit
 3. Forge Build
 4. (Optional) Forge Test
-5. To Deploy: forge create --rpc-url <your_rpc_url> --private-key <your_private_key> bob-starter-kit/script/deploy_wbrc20.sol:DeployWBRC20  
+5. To Deploy: forge create --rpc-url <your_rpc_url> --private-key <your_private_key> script/deploy_wbrc20.sol:DeployWBRC20  
 ```

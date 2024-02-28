@@ -39,7 +39,7 @@ export function DropDownFormEth() {
   return (
     <Popover>
       <PopoverTrigger asChild>
-        <Button variant="outline">ERC20 Bridge City</Button>
+        <Button variant="outline">WBRC20 Bridge City</Button>
       </PopoverTrigger>
       <PopoverContent className="w-80">
         <form className="flex w-full max-w-sm flex-col gap-2" onSubmit={(e) => {
@@ -47,7 +47,7 @@ export function DropDownFormEth() {
           mint(amount, wallet);
         }}>
           <div className="grid gap-1.5">
-            <Label htmlFor="wallet">ERC20</Label>
+            <Label htmlFor="wallet">WBRC20</Label>
             <Input id="wallet" placeholder="Recipient" value={wallet} type="text" onChange={(e) => setWallet(e.target.value)} />
           </div>
           <div className="grid gap-1.5">

@@ -10,6 +10,12 @@
 3. Bonus for challenges and prizes completions that integrate BOB.  
 ```
 
+**Team**
+```
+[Rashad Haddad -- Backend](https://github.com/rashadalh/tBTC-Bridge-MonoRepo)  
+[Eric Nans -- frontend](https://github.com/EcosystemNetwork)  
+```
+
 **Tools used**
 ```
 1. Bob SDK (making / sending inscriptions)  

@@ -6,18 +6,9 @@ const Footer = () => {
   return (
     <StyledFooter justifyContent="flex-end">
       <Flex gap="spacing4">
+
         <a
-          href="https://docs.gobob.xyz/docs/build/examples/metamask-ordinals/"
-          rel="external"
-          target="_blank"
-        >
-          <Flex gap="spacing2">
-            <Span>Docs</Span>
-            <FaExternalLinkAlt color="white" size=".9em" />
-          </Flex>
-        </a>
-        <a
-          href="https://github.com/bob-collective"
+          href="https://github.com/rashadalh/tBTC-Bridge-MonoRepo"
           rel="external"
           target="_blank"
         >

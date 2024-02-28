@@ -104,3 +104,12 @@ git submodule update --init --recursive
 4. (Optional) Forge Test
 5. To Deploy: forge create --rpc-url <your_rpc_url> --private-key <your_private_key> script/deploy_wbrc20.sol:DeployWBRC20  
 ```
+
+**To demo the frontend for POC**
+```
+1. cd into frontend/app
+2. Install pnpm package manager - https://pnpm.io/installation
+3. Install dependencies: pnpm i
+4. Run app (automatically opens default browser): pnpm run dev
+5. Connect to metamask flask  
+```

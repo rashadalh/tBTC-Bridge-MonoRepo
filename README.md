@@ -84,16 +84,16 @@ Unforuntately we did not have time to adequately test how to properly deploy the
 
 ### Testing Code...  
 
-**To begin, please sync and update all submodules! You can do this by running**  
+**To begin, please sync and update all submodules! You can do this by running**    
 ```
-git submodule sync --recursive  
-git submodule update --init --recursive  
+git submodule sync --recursive   
+git submodule update --init --recursive   
 ```
 
 **To install typescript dependencies:**
 ```
-1. Update submodules -- git submodule --update init (this will sync forked repos)
-2. Run npm install to install node modules for typescript
+1. Update submodules -- git submodule --update init (this will sync forked repos)  
+2. Run npm install to install node modules for typescript  
 ```
 
 **To Install Solidity**
@@ -102,6 +102,5 @@ git submodule update --init --recursive
 2. cd bob-starter-kit
 3. Forge Build
 4. (Optional) Forge Test
-5. To Deploy: forge create --rpc-url <your_rpc_url> --private-key <your_private_key> bob-starter-kit/script/deploy_wbrc20.sol:DeployWBRC20
-
+5. To Deploy: forge create --rpc-url <your_rpc_url> --private-key <your_private_key> bob-starter-kit/script/deploy_wbrc20.sol:DeployWBRC20  
 ```

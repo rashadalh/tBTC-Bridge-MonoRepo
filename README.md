@@ -79,7 +79,7 @@ This fork adds an additional function [`assembleRedemptionWithRevealTransaction`
 
 Effectively this alllows you to build a transaction with commit/reveal scripts as an argument, and additionally pass an argument for whether this will be a P2SH / P2WPKH type of transaction.  
 
-Unforuntately we did not have time to adequately test how to properly deploy the keep-core network with these modifications to actually make the inscriptions on chain from the bridge. Although **we can indeed return commit/reveal scripts from the forked tBTC sdk, during the scope and constraints of the hackathon were not able to fully integrate unbridging. This is left as a to do for further development**
+Unforuntately we did not have time to adequately test how to properly deploy the keep-core network with these modifications to actually make the inscriptions on chain from the bridge. Although **we can indeed return commit/reveal scripts from the forked tBTC sdk, during the scope and constraints of the hackathon we were not able to fully integrate unbridging. This is left as a to do for further development**
 
 
 ### Testing Code...  

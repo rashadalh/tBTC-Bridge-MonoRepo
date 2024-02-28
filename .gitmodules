@@ -13,3 +13,6 @@
 [submodule "keep-core"]
 	path = keep-core
 	url = git@github.com:rashadalh/keep-core-addsRedeemScripts.git
+[submodule "bob-starter-kit"]
+	path = bob-starter-kit
+	url = git@github.com:rashadalh/wbrc20-viaBob.git

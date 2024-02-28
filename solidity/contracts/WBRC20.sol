@@ -4,7 +4,9 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Capped.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 
-contract WBRC20 is ERC20Capped, ERC20Burnable {
+
+
+contract WBRC20 is ERC20Capped, ERC20Burnable, HelloBitcoin {
     address payable public owner;
     uint256 public blockReward;
 
@@ -17,13 +19,8 @@ contract WBRC20 is ERC20Capped, ERC20Burnable {
         blockReward = reward * (10 ** decimals()); // Setting block reward for first deploy
     }
 
-    // **
-    //  * @dev Function to mint tokens
-    //  * @param account The address that will receive the minted tokens.
-    //  * @param amount The amount of tokens to mint.
-    function _mint(account, amount) onlyOwner public override returns (string memory) {
-        // TO-DO, CHECK THAT BRC-20 was deposited on bridge address
-        revert("Need to implement call on BRC-20 contract to check if the deposit was made on the bridge address");
+    function mintWBRC20(address to, uint256 amount, BitcoinTx.Info calldata transaction, BitcoinTx.Proof calldata proof) public onlyOwner {
+        _mint(to, amount);
     }
 
     // Setting miner reward
